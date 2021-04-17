@@ -1,0 +1,54 @@
+.meal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.meal h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.text {
+  width: 60%;
+}
+
+.description {
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #10adfb;
+  font-size: 1.5rem;
+}
+
+.meal img {
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+  filter: brightness(0.7);
+  transition: all ease 0.3s;
+}
+
+.meal img:hover {
+  width: 40%;
+  filter: brightness(1.1);
+}
+
+@media (max-width: 500px) {
+  .meal {
+    flex-direction: column;
+  }
+  .text {
+    width: 100%;
+  }
+  .meal img {
+    width: 30%;
+    margin: 10px 0;
+  }
+}

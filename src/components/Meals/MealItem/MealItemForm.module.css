@@ -1,0 +1,21 @@
+.form {
+  text-align: left;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background: dodgerblue;
+  color: white;
+  padding: 0.25rem 1.2rem;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  transition: all ease 0.3s;
+}
+
+.form button:hover,
+.form button:active {
+  background: rgb(72, 163, 253);
+  transform: scale(1.1);
+}
