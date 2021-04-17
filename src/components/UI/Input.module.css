@@ -17,3 +17,8 @@
   padding-left: 0.5rem;
   outline: none;
 }
+.input input[type="number"]::-webkit-inner-spin-button,
+.input input[type="number"]::-webkit-outer-spin-button {
+  background: lightgreen;
+  opacity: 1;
+}

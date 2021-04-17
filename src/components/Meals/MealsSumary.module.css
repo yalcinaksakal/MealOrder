@@ -1,11 +1,11 @@
 .summary {
   text-align: center;
-  max-width: 45rem;
+  max-width: 50rem;
   width: 90%;
   margin: auto;
   margin-top: -12rem;
   position: relative;
-  background-color: #282928e7;
+  background-color: #3f4040;
   color: white;
   border-radius: 14px;
   padding: 1rem;
@@ -15,9 +15,14 @@
 .summary h2 {
   margin-top: 0;
 }
-
+.summary p {
+  font-size: 0.8rem;
+}
 @media (max-width: 500px) {
   .summary {
     margin-top: -16rem;
+  }
+  .summary p {
+    font-size: 0.6rem;
   }
 }

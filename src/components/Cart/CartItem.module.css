@@ -58,9 +58,14 @@
   margin-left: 1rem;
   margin: 0.25rem;
 }
-
+.cart-item .delete {
+  color: rgb(177, 2, 2);
+}
 .cart-item button:hover,
 .cart-item button:active {
   background-color: dodgerblue;
   color: white;
+}
+.cart-item .delete:hover {
+  background-color: red;
 }

@@ -25,7 +25,7 @@
   width: 110%;
   height: 100%;
   object-fit: cover;
-  transform: rotateZ(-5deg) translateY(-5rem) translateX(-4rem);
+  transform: rotateZ(-5deg) translateY(-5rem) translateX(-1rem);
 }
 @media (max-width: 500px) {
   .header h1 {
