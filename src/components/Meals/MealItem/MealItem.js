@@ -3,6 +3,8 @@ import MealItemForm from "./MealItemForm";
 const MealItem = props => {
   const price = `€${props.meal.price.toFixed(2)}`;
   const imgSrc = require(`../../../assests/products/${props.meal.img}`).default;
+
+  const addToCartHandler = amount => {};
   return (
     <li className={styles.meal}>
       <div className={styles.text}>
@@ -12,7 +14,7 @@ const MealItem = props => {
           <div className={styles.description}>{props.meal.description}</div>
         ) : null}
         <div className={styles.price}>{price}</div>
-        <MealItemForm />
+        <MealItemForm onAdToChart={addToCartHandler} />
       </div>
 
       <img src={imgSrc} alt={props.meal.name} />

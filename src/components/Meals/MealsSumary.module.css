@@ -5,13 +5,19 @@
   margin: auto;
   margin-top: -12rem;
   position: relative;
-  background-color: #282928cd;
+  background-color: #282928e7;
   color: white;
   border-radius: 14px;
   padding: 1rem;
-  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.5);
 }
 
 .summary h2 {
   margin-top: 0;
+}
+
+@media (max-width: 500px) {
+  .summary {
+    margin-top: -16rem;
+  }
 }

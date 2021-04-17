@@ -5,13 +5,17 @@ import CartContext from "../../store/cart-context";
 
 const ButtonCart = props => {
   const ctx = useContext(CartContext);
+  const numberOfCartItems = ctx.items.reduce(
+    (cur, item) => cur + item.amount,
+    0
+  );
   return (
     <button className={styles.button} onClick={props.clicked}>
       <span className={styles.icon}>
         <CartIcon />
       </span>
       <span>Your Cart</span>
-      <span className={styles.badge}>{ctx.items.length}</span>
+      <span className={styles.badge}>{numberOfCartItems}</span>
     </button>
   );
 };
