@@ -9,13 +9,14 @@ const MealItemForm = props => {
     e.preventDefault();
     const enteredAmount = inputRef.current.value;
     if (
-      !enteredAmount.trim().length ||
+      enteredAmount.trim().length === 0 ||
       +enteredAmount < 1 ||
-      +enteredAmount < 9
+      +enteredAmount > 9
     ) {
       setIsAmountValid(false);
       return;
     }
+
     props.onAdToChart(+enteredAmount);
   };
   return (
