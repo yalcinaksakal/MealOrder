@@ -36,7 +36,7 @@
 }
 
 .meal img:hover {
-  width: 40%;
+  width: 60%;
   filter: brightness(1.1);
 }
 
@@ -50,5 +50,8 @@
   .meal img {
     width: 30%;
     margin: 10px 0;
+  }
+  .meal img:hover {
+    width: 100%;
   }
 }
