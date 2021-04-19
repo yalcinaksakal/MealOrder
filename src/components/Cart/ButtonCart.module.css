@@ -14,14 +14,14 @@
 }
 
 .button:hover,
-.button:active {
+.button .active {
   background-color: lime;
   color: white;
 }
 
 .icon {
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 1.5rem;
+  height: 1.5rem;
   margin-right: 0.5rem;
 }
 
