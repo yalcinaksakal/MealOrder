@@ -10,6 +10,7 @@
   border-radius: 20px;
   color: dodgerblue;
   outline: none;
+  transition: all ease 0.3s;
 }
 
 .button:hover,
