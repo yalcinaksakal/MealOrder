@@ -8,25 +8,30 @@ const AvailableMeals = () => {
 
   useEffect(() => {
     const fetchMeals = async () => {
-      const response = await fetch(
-        "https://order-meal-a2f7a-default-rtdb.firebaseio.com/meals/-MZ9QVLnro9jipm5VE1u.json"
-      );
-      const data = await response.json();
-      setMealsList(
-        <ul>
-          {Object.values(data).map(meal => (
-            <MealItem key={meal.id} meal={meal} />
-          ))}
-        </ul>
-      );
+      try {
+        const response = await fetch(
+          "https://order-meal-a2f7a-default-rtdb.firebaseio.com/meals/-MZ9QVLnro9jipm5VE1u.json"
+        );
+        console.log(response);
+        const data = await response.json();
+        setMealsList(
+          <section className={styles.meals}>
+            <Card>
+              <ul>
+                {Object.values(data).map(meal => (
+                  <MealItem key={meal.id} meal={meal} />
+                ))}
+              </ul>
+            </Card>
+          </section>
+        );
+      } catch (error) {
+        setMealsList(<p>{error.message}</p>);
+      }
     };
     fetchMeals();
   }, []);
-  return (
-    <section className={styles.meals}>
-      <Card>{mealsList}</Card>
-    </section>
-  );
+  return mealsList;
 };
 
 export default AvailableMeals;
