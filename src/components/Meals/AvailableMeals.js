@@ -31,6 +31,7 @@ const AvailableMeals = () => {
       setMealsList(<p className={styles.error}>{error.message}</p>);
     });
   }, []);
+  
   return mealsList;
 };
 

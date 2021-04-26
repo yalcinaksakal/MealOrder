@@ -32,8 +32,11 @@
   margin: 0 1rem;
   transition: all ease 0.2s;
   color: white;
+  border: 2px solid limegreen;
 }
-
+.actions .button--alt {
+  border: 2px solid rgb(199, 35, 35);
+}
 .actions button:hover,
 .actions button:active {
   background-color: limegreen;
