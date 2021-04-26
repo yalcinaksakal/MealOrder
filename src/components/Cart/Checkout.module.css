@@ -21,7 +21,7 @@
   font: inherit;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 20rem;
+  width: calc(100% - 20px);
   max-width: 100%;
 }
 
@@ -29,6 +29,7 @@
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+  margin-right: 20px;
 }
 
 .actions button {
@@ -39,22 +40,26 @@
   border: none;
   border-radius: 25px;
   padding: 0.5rem 2rem;
+  border: 2px solid rgb(199, 35, 35);
+  transition: all ease 0.3s;
 }
 
 .actions button:hover,
 .actions button:active {
-  background-color: #ffe6dc;
+  background-color: rgb(199, 35, 35);
+  color: white;
 }
 
 .actions .submit {
-  border: 1px solid #5a1a01;
-  background-color: #5a1a01;
+  border: 2px solid limegreen;
+  background-color: limegreen;
   color: white;
 }
 
 .actions .submit:hover,
 .actions .submit:active {
-  background-color: #7a2706;
+  transform: scale(1.05);
+  background-color: limegreen;
 }
 
 .invalid label {

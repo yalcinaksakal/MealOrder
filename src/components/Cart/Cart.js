@@ -3,7 +3,7 @@ import Modal from "../UI/Modal";
 import CartContext from "../../store/cart-context";
 import CartItem from "./CartItem";
 import { useContext, useState } from "react";
-import Checkout from "./Checkot";
+import Checkout from "./Checkout";
 const Cart = props => {
   const ctx = useContext(CartContext);
   const totalAmount = `€ ${ctx.totalAmount.toFixed(2)}`;
@@ -57,7 +57,11 @@ const Cart = props => {
         <span>Total Amount</span>
         <span>{totalAmount}</span>
       </div>
-      {isCheckout ? <Checkout onCancel={props.onClose} /> : modalActions}
+      {isCheckout && ctx.totalAmount !== 0 ? (
+        <Checkout onCancel={props.onClose} />
+      ) : (
+        modalActions
+      )}
     </Modal>
   );
 };

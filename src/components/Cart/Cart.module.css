@@ -2,7 +2,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  max-height: 400px;
+  max-height: 300px;
   overflow: auto;
   overflow-x: hidden;
 }
