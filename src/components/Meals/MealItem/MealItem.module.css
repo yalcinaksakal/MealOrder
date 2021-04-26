@@ -13,6 +13,7 @@
 
 .text {
   width: 60%;
+  padding-right: 5px;
 }
 
 .description {
