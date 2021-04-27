@@ -1,0 +1,147 @@
+{
+  "meals" : {
+    "-MZ9QVLnro9jipm5VE1u" : {
+      "m0" : {
+        "description" : "Sadece cins dana antrikot ve dana rozbeef kullanılarak yapılmaktadır. Çok özel bir ettir.",
+        "id" : "m0",
+        "img" : "1.jpg",
+        "name" : "Dana antrikot şiş özel",
+        "price" : 12
+      },
+      "m1" : {
+        "description" : "Sadece cins dana antrikot ve dana rozbeef kullanılarak yapılmaktadır. Çok özel bir ettir.",
+        "id" : "m1",
+        "img" : "2.jpg",
+        "name" : "Hatay kağıt kebap özel",
+        "price" : 12
+      },
+      "m10" : {
+        "description" : "Peynirli, kaşarlı, sucuklu, ton balıklı, Kuşbaşılı, tavuklu, karşık ve daha fazla çeşit.",
+        "id" : "m10",
+        "img" : "4.jpg",
+        "name" : "Pide çeşitleri",
+        "price" : 6
+      },
+      "m11" : {
+        "id" : "m11",
+        "img" : "20.jpg",
+        "name" : "Kaşarlı kıymalı Mevlana",
+        "price" : 6
+      },
+      "m12" : {
+        "id" : "m12",
+        "img" : "6.jpg",
+        "name" : "Cappadocia dürüm kebap",
+        "price" : 4.9
+      },
+      "m13" : {
+        "description" : "Tavuk, kebap, köfte olarak",
+        "id" : "m13",
+        "img" : "19.jpg",
+        "name" : "Ekmek arası çeşitleri",
+        "price" : 2.5
+      },
+      "m14" : {
+        "id" : "m14",
+        "img" : "7.jpg",
+        "name" : "Patates porsiyon",
+        "price" : 2.5
+      },
+      "m15" : {
+        "id" : "m15",
+        "img" : "21.jpg",
+        "name" : "Lahmacun",
+        "price" : 2
+      },
+      "m16" : {
+        "id" : "m16",
+        "img" : "5.jpg",
+        "name" : "Ramazan pidesi",
+        "price" : 1
+      },
+      "m17" : {
+        "description" : "1 porsiyon.",
+        "id" : "m17",
+        "img" : "8.jpg",
+        "name" : "Fıstıklı Bakkava",
+        "price" : 3
+      },
+      "m18" : {
+        "description" : "1 porsiyon",
+        "id" : "m18",
+        "img" : "18.jpg",
+        "name" : "Fıstıklı Kadayıf",
+        "price" : 3
+      },
+      "m19" : {
+        "id" : "m19",
+        "img" : "11.jpg",
+        "name" : "Yunan Salatası",
+        "price" : 6
+      },
+      "m2" : {
+        "description" : "1,2 ve 3 kişilik",
+        "id" : "m2",
+        "img" : "9.jpg",
+        "name" : "Cappadocia Grill",
+        "price" : 11.5
+      },
+      "m20" : {
+        "id" : "m20",
+        "img" : "12.jpg",
+        "name" : "Çoban salatası",
+        "price" : 6
+      },
+      "m21" : {
+        "id" : "m21",
+        "img" : "13.jpg",
+        "name" : "Tabule salatası",
+        "price" : 5.5
+      },
+      "m3" : {
+        "id" : "m3",
+        "img" : "10.jpg",
+        "name" : "Beyti",
+        "price" : 9
+      },
+      "m4" : {
+        "description" : "Peynirli, kaşarlı, sucuklu, ton balıklı, Kuşbaşılı, tavuklu, karşık ve daha fazla çeşit",
+        "id" : "m4",
+        "img" : "3.jpg",
+        "name" : "Pizza çeşitleri",
+        "price" : 8
+      },
+      "m5" : {
+        "id" : "m5",
+        "img" : "15.jpg",
+        "name" : "Tavuk kanat porsiyon",
+        "price" : 8
+      },
+      "m6" : {
+        "id" : "m6",
+        "img" : "16.jpg",
+        "name" : "Adana veya Urfa porsiyon",
+        "price" : 8
+      },
+      "m7" : {
+        "id" : "m7",
+        "img" : "17.jpg",
+        "name" : "Tavuk şiş porsiyon",
+        "price" : 8
+      },
+      "m8" : {
+        "id" : "m8",
+        "img" : "14.jpg",
+        "name" : "Mantı",
+        "price" : 7.5
+      },
+      "m9" : {
+        "description" : "Sadece cins dana antrikot ve dana rozbeef kullanılarak yapılmaktadır. Çok özel bir ettir.",
+        "id" : "m9",
+        "img" : "4.jpg",
+        "name" : "Kuşbaşılı pide",
+        "price" : 7.5
+      }
+    }
+  }
+}

@@ -43,7 +43,7 @@ const Cart = props => {
     });
     setIsSubmitting(false);
     setSubmitResult(submitMessage);
-    setTimeout(() => props.onClose(), 1500);
+    if (submitMessage === "Success") ctx.clearChart();
   };
 
   const cartItems = (
@@ -103,6 +103,11 @@ const Cart = props => {
         >
           {submitResult}
         </p>
+        <div className={styles.actions}>
+          <button className={styles.button} onClick={props.onClose}>
+            Close
+          </button>
+        </div>
       </Modal>
     );
   return modal;
