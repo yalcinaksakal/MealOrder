@@ -24,12 +24,17 @@ const Checkout = props => {
     const postal = postalRef.current.value;
     const city = cityRef.current.value;
 
-    setFormValidity({
+    const isFormValid = {
       name: !isEmpty(name),
       street: !isEmpty(street),
       postal: isFiveChars(postal),
       city: !isEmpty(city),
-    });
+    };
+    setFormValidity(isFormValid);
+
+    if (Object.values(isFormValid).some(value => value === false)) return;
+
+    props.onConfirm({ name, street, postal, city });
   };
 
   return (

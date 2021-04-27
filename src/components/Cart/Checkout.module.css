@@ -42,6 +42,7 @@
   padding: 0.5rem 2rem;
   border: 2px solid rgb(199, 35, 35);
   transition: all ease 0.3s;
+  outline: none;
 }
 
 .actions button:hover,
